@@ -1,0 +1,17 @@
+{
+  "name": "core-media",
+  "version": "1.0.0",
+  "description": "responsive design plugin",
+  "license": "ISC",
+  "main": "dist/core-media.js",
+  "module": "dist/core-media.es.js",
+  "scripts": {
+    "dev": "poi",
+    "build": "rimraf dist && bili"
+  },
+  "devDependencies": {
+    "bili": "^3.0.3",
+    "poi": "^10.1.2",
+    "vue": "^2.6.11"
+  }
+}
